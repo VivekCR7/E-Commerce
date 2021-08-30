@@ -1,0 +1,187 @@
+/* section */
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+  width: 100%;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 20em;
+  align-self: flex-start;
+}
+
+.split-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-2 {
+  width: 100%;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.split-section {
+  width: 100%;
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.small-image {
+  width: 100%;
+  height: 16em;
+  align-self: flex-start;
+}
+
+#eyewear {
+  background-image: url(../images/ronaldo-mobile-eyewear.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footwear {
+  background-image: url(../images/ronaldo-mobile-footwear.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+#underwear {
+  background-image: url(../images/ronaldo-mobile-underwear.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 40%;
+}
+
+#denim {
+  background-image: url(../images/ronaldo-denim-mobile.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fragrance {
+  background-image: url(../images/ronaldo-fragrance-mobile.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 40%;
+}
+
+.text {
+  width: 70%;
+  height: 30px;
+  text-align: center;
+}
+
+.text p {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.small-text {
+  width: 50%;
+  height: 20px;
+  text-align: center;
+}
+
+.small-text p {
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.shop-now {
+  width: 90px;
+  height: 30px;
+  border: 2px solid;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.shop-now a p {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .section {
+    height: 20vh;
+  }
+
+  .section-2 {
+    height: 20vh;
+  }
+
+  .image {
+    height: 30em;
+  }
+
+  .text p {
+    font-size: 22px;
+  }
+
+  .shop-now {
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+  }
+
+  .shop-now a p {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+  .small-text p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .section {
+    height: 25vh;
+  }
+
+  .image {
+    height: 40em;
+  }
+
+  #eyewear {
+    background-position-y: -40px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .small-text p {
+    font-size: 30px;
+  }
+
+  .shop-now {
+    width: 120px;
+    height: 40px;
+    border: 2px solid;
+  }
+
+  .shop-now a p {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+}
