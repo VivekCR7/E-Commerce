@@ -1,0 +1,483 @@
+/* product info */
+
+.product-info {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 16px;
+  color: black;
+}
+
+.small-text {
+  font-size: 14px;
+  color: gray;
+  padding-top: 2px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .image {
+    width: 100%;
+    height: 25em;
+  }
+
+  #eyewear {
+    background-image: url(../images/ronaldo-mobile-eyewear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #footwear {
+    background-image: url(../images/ronaldo-mobile-footwear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  #underwear {
+    background-image: url(../images/ronaldo-mobile-underwear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #denim {
+    background-image: url(../images/ronaldo-denim-mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #fragrance {
+    background-image: url(../images/ronaldo-fragrance-mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .product-info {
+    margin-top: 20px;
+    height: 60px;
+  }
+
+  .big-text {
+    font-size: 20px;
+  }
+
+  .small-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .image {
+    width: 100%;
+    height: 35em;
+  }
+
+  #eyewear {
+    background-image: url(../images/ronaldo-mobile-eyewear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -40px;
+  }
+
+  #footwear {
+    background-image: url(../images/ronaldo-mobile-footwear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #underwear {
+    background-image: url(../images/ronaldo-mobile-underwear.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #denim {
+    background-image: url(../images/ronaldo-denim-mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #fragrance {
+    background-image: url(../images/ronaldo-fragrance-mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .product-info {
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  .big-text {
+    font-size: 25px;
+  }
+
+  .small-text {
+    font-size: 20px;
+  }
+}
+
+/* product-display */
+.product-display {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  align-self: flex-start;
+}
+
+.product-extra-info {
+  width: 70%;
+  height: 50px;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.product-price {
+  font-size: 14px;
+  font-weight: bolder;
+  color: gray;
+}
+
+/* load all the images */
+
+/* eyewear */
+
+#eye1 {
+  background-image: url(../images/eye1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye2 {
+  background-image: url(../images/eye2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye3 {
+  background-image: url(../images/eye3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye4 {
+  background-image: url(../images/eye4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye5 {
+  background-image: url(../images/eye5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye6 {
+  background-image: url(../images/eye6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#eye7 {
+  background-image: url(../images/eye7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* footwear */
+
+#foot1 {
+  background-image: url(../images/foot1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot2 {
+  background-image: url(../images/foot2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot3 {
+  background-image: url(../images/foot3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot4 {
+  background-image: url(../images/foot4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot5 {
+  background-image: url(../images/foot5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot6 {
+  background-image: url(../images/foot6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#foot7 {
+  background-image: url(../images/foot7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* underwear */
+
+#und1 {
+  background-image: url(../images/und1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und2 {
+  background-image: url(../images/und2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und3 {
+  background-image: url(../images/und3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und4 {
+  background-image: url(../images/und4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und5 {
+  background-image: url(../images/und5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und6 {
+  background-image: url(../images/und6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#und7 {
+  background-image: url(../images/und7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* denim */
+
+#den1 {
+  background-image: url(../images/den1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den2 {
+  background-image: url(../images/den2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den3 {
+  background-image: url(../images/den3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den4 {
+  background-image: url(../images/den4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den5 {
+  background-image: url(../images/den5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den6 {
+  background-image: url(../images/den6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#den7 {
+  background-image: url(../images/den7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Fragrances */
+#fa1 {
+  background-image: url(../images/fa1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa2 {
+  background-image: url(../images/fa2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa3 {
+  background-image: url(../images/fa3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa4 {
+  background-image: url(../images/fa4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa5 {
+  background-image: url(../images/fa5.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa6 {
+  background-image: url(../images/fa6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fa7 {
+  background-image: url(../images/fa7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .product-display {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .product {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+  }
+
+  .product-extra-info {
+    width: 70%;
+    height: 60px;
+    text-align: center;
+  }
+
+  .product-name {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .product-price {
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .product-display {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .product {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 100%;
+    align-self: flex-start;
+  }
+
+  .product-extra-info {
+    width: 70%;
+    height: 70px;
+    text-align: center;
+  }
+
+  .product-name {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .product-price {
+    font-size: 22px;
+    font-weight: bolder;
+    color: gray;
+  }
+}
