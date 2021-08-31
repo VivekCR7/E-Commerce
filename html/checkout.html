@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | E-commerce</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/checkout.css" />
+    <script src="../navbar.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4524c5fd82.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div id="sidebar" class="sidebar">
+        <div class="toggle-button" onclick="show()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <a href="eyewear.html"> <li>EYEWEAR</li></a>
+          <a href="footwear.html"><li>FOOTWEAR</li></a>
+          <a href="underwear.html"><li>UNDERWEAR</li></a>
+          <a href="denim.html"><li>DENIM</li></a>
+          <a href="fragrance.html"><li>FRAGRANCES</li></a>
+        </ul>
+      </div>
+      <div class="logo">
+        <a href="../home.html">
+          <img
+            src="https://www.nike.com/assets/experience/ciclp/landing-pages/static/v2/78-45b7ef03d70/static/icons/jordan.svg"
+            alt=""
+            width="90px"
+            height="70px"
+          />
+        </a>
+      </div>
+      <a href="cart.html" class="shopping-cart">
+        <i class="fa fa-shopping-cart"></i>
+      </a>
+    </header>
+
+    <section class="product-info">
+      <p class="big-text">Checkout</p>
+    </section>
+
+    <div class="form-section">
+      <form method="post">
+        <section class="section-1">
+          <div id="account-info" class="text-field">
+            <p class="heading">Account Information</p>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div id="phone" class="text-field">
+            <input
+              type="text"
+              name="phone-number"
+              id="phone-number"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div id="shipping" class="text-field">
+            <p class="heading">Shipping Address</p>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Address"
+            />
+          </div>
+          <div id="city" class="text-field">
+            <input type="text" name="city" id="city" placeholder="City" />
+          </div>
+          <div id="state" class="text-field">
+            <input
+              type="text"
+              name="state-province"
+              id="state-province"
+              placeholder="State/Province"
+            />
+          </div>
+          <div id="zip" class="text-field">
+            <input
+              type="text"
+              name="zip-code"
+              id="zipcode"
+              placeholder="zipcode"
+            />
+          </div>
+          <div id="countries" class="text-field">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="us">United States</option>
+              <option value="cad">Canada</option>
+            </select>
+          </div>
+          <div id="bill" class="text-field">
+            <p class="heading">Billing Address</p>
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              value="checkbox"
+            />
+            <label for="checkbox"> Use different billing address</label><br />
+          </div>
+        </section>
+
+        <section class="section-2">
+          <div id="pay" class="text-field">
+            <p class="heading">Payment Method</p>
+            <input
+              type="text"
+              name="card-holder-name"
+              id="card-holder-name"
+              placeholder="Cardholder Name"
+            />
+          </div>
+          <div id="card" class="text-field">
+            <input
+              type="text"
+              name="card-number"
+              id="card-number"
+              placeholder="Card Number"
+            />
+          </div>
+          <div id="exp" class="text-field">
+            <label for="date"> Expiry </label>
+            <select name="date" id="date">
+              <option value="jan">January</option>
+            </select>
+          </div>
+          <div id="select-year" class="text-field">
+            <select name="year" id="year">
+              <option value="2021">2021</option>
+            </select>
+          </div>
+          <div id="Cvv" class="text-field">
+            <input type="text" name="cvv" id="cvv" placeholder="CVV" />
+          </div>
+        </section>
+
+        <section class="summary">
+          <p class="heading">Order Summary</p>
+          <div class="receipt">
+            <div class="pro1">
+              <span class="product-name">Chashma1</span>
+              <span class="product-price">&dollar; 2.32</span>
+            </div>
+            <div class="total">
+              <span class="total-tag">Total</span>
+              <span class="total-price">&dollar; 2.32</span>
+            </div>
+          </div>
+        </section>
+        <div class="order-button">
+          <a href="#">PLACE ORDER</a>
+        </div>
+      </form>
+
+      <div class="place-order">
+        <a href="#">PLACE ORDER</a>
+      </div>
+    </div>
+  </body>
+</html>

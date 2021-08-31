@@ -200,12 +200,6 @@ footer {
     font-size: 20px;
     color: black;
   }
-
-  footer {
-    display: block;
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -293,11 +287,5 @@ footer {
   .add-to-cart a {
     font-size: 20px;
     color: black;
-  }
-
-  footer {
-    display: block;
-    position: absolute;
-    bottom: 0;
   }
 }

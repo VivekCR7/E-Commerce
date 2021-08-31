@@ -1,0 +1,366 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.product-info {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.big-text {
+  font-size: 16px;
+  color: black;
+}
+
+.form-section {
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 0.5fr;
+}
+
+.section-1,
+.section-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 1em;
+}
+
+.section-1 {
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.heading {
+  grid-column: 1/6;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.text-field {
+  border-bottom: 2px solid gray;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.text-field input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+
+.text-field select {
+  font-size: 15px;
+  border: none;
+  font-weight: lighter;
+  background-color: transparent;
+}
+
+#account-info,
+#phone,
+#shipping,
+#city,
+#countries,
+#bill {
+  grid-column: 1/7;
+}
+
+#state {
+  grid-column: 1/4;
+  justify-self: flex-end;
+}
+
+#zip {
+  grid-column: 4/7;
+  justify-self: flex-start;
+}
+
+#countries > label {
+  display: block;
+}
+
+#countries > select {
+  margin-top: 15px;
+}
+
+#bill {
+  border: none;
+}
+
+#bill input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-top: 18px;
+}
+
+#bill > label {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.section-2 {
+  height: 40vh;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+}
+
+#pay {
+  grid-column: 1/7;
+}
+#card {
+  grid-column: 1/7;
+}
+
+#exp {
+  justify-self: flex-end;
+  grid-column: 1/3;
+}
+
+#exp > label {
+  display: block;
+  padding-left: 10px;
+}
+
+#exp select {
+  display: block;
+  margin-top: 15px;
+}
+
+#select-year {
+  grid-column: 3/5;
+}
+
+#select-year select {
+  margin-top: 32px;
+}
+
+#Cvv {
+  grid-column: 5/7;
+  justify-self: flex-start;
+  margin-top: 30px;
+}
+
+.summary {
+  margin: auto;
+  width: 80%;
+}
+
+.pro1,
+.total {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.product-price,
+.total-price {
+  float: right;
+  font-size: 14px;
+}
+
+.order-button {
+  display: none;
+}
+
+.place-order {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #172c50;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+.place-order a {
+  display: block;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  #sidebar {
+    display: none;
+  }
+
+  .big-text {
+    font-size: 20px;
+  }
+
+  .form-section {
+    width: 90%;
+    margin: auto;
+  }
+
+  form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5;
+    height: 60vh;
+  }
+
+  .section-1,
+  .section-2 {
+    width: 100%;
+  }
+
+  .section-1 {
+    grid-row: 1/4;
+    margin-top: 12px;
+  }
+
+  .section-2 {
+    height: 30vh;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .text-field select {
+    font-size: 18px;
+  }
+
+  #bill > label {
+    font-size: 18px;
+  }
+
+  .summary {
+    margin-top: 30px;
+  }
+
+  .pro1,
+  .total {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .product-price,
+  .total-price {
+    font-size: 18px;
+  }
+
+  .order-button {
+    display: block;
+    border: 2px solid;
+    width: 170px;
+    height: 40px;
+    margin-left: 8%;
+    text-align: center;
+  }
+
+  .order-button a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .place-order {
+    display: none;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  #sidebar {
+    display: none;
+  }
+
+  .big-text {
+    font-size: 20px;
+  }
+
+  .form-section {
+    width: 80%;
+    margin: auto;
+  }
+
+  form {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5;
+    height: 60vh;
+  }
+
+  .section-1,
+  .section-2 {
+    width: 100%;
+  }
+
+  .section-1 {
+    grid-row: 1/4;
+    margin-top: 12px;
+  }
+
+  .section-2 {
+    height: 30vh;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .text-field select {
+    font-size: 18px;
+  }
+
+  #bill > label {
+    font-size: 18px;
+  }
+
+  #bill {
+    align-self: flex-end;
+  }
+
+  .summary {
+    margin-top: 30px;
+  }
+
+  .pro1,
+  .total {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .product-price,
+  .total-price {
+    font-size: 18px;
+  }
+
+  .order-button {
+    display: block;
+    border: 2px solid;
+    width: 170px;
+    height: 40px;
+    margin-left: 8%;
+    text-align: center;
+  }
+
+  .order-button a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .place-order {
+    display: none;
+  }
+}
