@@ -1,1 +1,93 @@
-welcome to the empty cart!!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <script src="navbar.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4524c5fd82.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div id="sidebar" class="sidebar">
+        <div class="toggle-button" onclick="show()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <a href="eyewear.html"> <li>EYEWEAR</li></a>
+          <a href="footwear.html"><li>FOOTWEAR</li></a>
+          <a href="underwear.html"><li>UNDERWEAR</li></a>
+          <a href="denim.html"><li>DENIM</li></a>
+          <a href="fragrance.html"><li>FRAGRANCES</li></a>
+        </ul>
+      </div>
+      <div class="logo">
+        <a href="home.html">
+          <img
+            src="https://www.nike.com/assets/experience/ciclp/landing-pages/static/v2/78-45b7ef03d70/static/icons/jordan.svg"
+            alt=""
+            width="90px"
+            height="70px"
+          />
+        </a>
+      </div>
+      <a href="cart.html" class="shopping-cart">
+        <i class="fa fa-shopping-cart"></i>
+      </a>
+    </header>
+
+    <section class="product-info">
+      <p class="big-text">Your Cart</p>
+      <p class="small-text">(n items)</p>
+    </section>
+
+    <div class="cart-list">
+      <a href="produc1.html" class="smaller-image"></a>
+      <div class="items-details">
+        <div class="name">
+          <a href="produc1.html">Chashma1</a>
+        </div>
+        <div class="detail">
+          <div id="op1" class="shop-select">
+            <label for="quantity" prefix>Qty:</label>
+            <select name="quantity" id="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="size">
+            Size:
+            <span>M</span>
+          </div>
+          <div class="price">&dollar; 2.32</div>
+
+          <div id="cancel" class="fa fa-times"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="total-price">
+      <span>Total: </span>
+      <span>&dollar; 2.32</span>
+
+      <div class="checkout-button">
+        <a href="checkout.html">CHECKOUT</a>
+      </div>
+    </div>
+
+    <footer>
+      <a href="checkout.html">CHECKOUT</a>
+    </footer>
+  </body>
+</html>
